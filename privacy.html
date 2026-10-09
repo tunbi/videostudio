@@ -1,0 +1,153 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Privacy Policy – Video Studio</title>
+  <style>
+:root {
+  --bg: #f7f8fb; --card: #ffffff; --text: #1d2433; --muted: #5b6478; --accent: #2b5cff; --line: #e3e7ef;
+}
+@media (prefers-color-scheme: dark) {
+  :root { --bg: #11131a; --card: #171a23; --text: #e6e8ef; --muted: #9aa1b5; --accent: #8fa6ff; --line: #262a36; }
+}
+* { box-sizing: border-box; }
+body { margin: 0; background: var(--bg); color: var(--text); font: 16px/1.65 "Segoe UI", system-ui, -apple-system, sans-serif; }
+header { background: var(--card); border-bottom: 1px solid var(--line); }
+.wrap { max-width: 860px; margin: 0 auto; padding: 0 16px; }
+nav { display: flex; gap: 18px; align-items: center; flex-wrap: wrap; padding: 14px 0; }
+nav .brand { font-weight: 700; font-size: 18px; margin-right: auto; color: var(--text); text-decoration: none; }
+nav a { color: var(--accent); text-decoration: none; }
+nav a:hover { text-decoration: underline; }
+main { padding: 28px 0 48px; }
+.card { background: var(--card); border: 1px solid var(--line); border-radius: 12px; padding: 24px 28px; margin-bottom: 24px; }
+h1 { font-size: 28px; margin: 0 0 4px; }
+h2 { font-size: 20px; margin: 28px 0 8px; }
+.meta { color: var(--muted); font-size: 14px; margin: 0 0 16px; }
+.lang { display: inline-block; font-size: 12px; font-weight: 700; letter-spacing: .06em; color: var(--accent);
+        border: 1px solid var(--accent); border-radius: 999px; padding: 1px 10px; margin-bottom: 8px; }
+ul { padding-left: 22px; }
+code { background: var(--bg); border: 1px solid var(--line); border-radius: 4px; padding: 0 4px; font-size: 14px; }
+footer { color: var(--muted); font-size: 14px; text-align: center; padding: 24px 0 40px; }
+@media (max-width: 600px) { .card { padding: 18px 16px; } h1 { font-size: 24px; } }
+</style>
+</head>
+<body>
+<header><div class="wrap"><nav>
+  <a class="brand" href="index.html">Video Studio</a>
+  <a href="terms.html">Terms of Service</a>
+  <a href="privacy.html">Privacy Policy</a>
+  <a href="#vi">Tiếng Việt</a>
+</nav></div></header>
+<main class="wrap">
+  <section class="card">
+    <span class="lang">EN</span>
+    <h1>Privacy Policy</h1>
+    <p class="meta">Effective date: October 9, 2026</p>
+
+    <p>This Privacy Policy explains what information Video Studio (the "Application") accesses, how it is used and
+      how you control it. The Application is a Windows desktop program. <strong>There is no server behind it: we do not
+      collect, receive, store, sell or share your personal data.</strong> Everything described below stays on your
+      own computer, except the videos and captions that you choose to publish to TikTok or Meta.</p>
+
+    <h2>1. Information accessed from TikTok</h2>
+    <p>When you connect TikTok (TikTok Login Kit), you grant the scopes shown on TikTok's consent screen:</p>
+    <ul>
+      <li><code>user.info.basic</code>: your TikTok open ID and display name, shown in the Application so you can see
+        which account is connected.</li>
+      <li><code>video.upload</code>: lets you send a video you selected to your TikTok inbox as a draft.</li>
+      <li><code>video.publish</code> (only if you enable direct posting): lets you publish a video you selected, with
+        the caption and privacy level you chose.</li>
+    </ul>
+    <p>The Application receives an access token and a refresh token from TikTok. It uses them only to perform the
+      actions above when you request them.</p>
+
+    <h2>2. Information accessed from Facebook</h2>
+    <p>When you connect Facebook (permissions <code>pages_show_list</code>, <code>pages_read_engagement</code>,
+      <code>pages_manage_posts</code>), the Application reads the list of Pages you manage (ID, name, username) and
+      receives Page access tokens. It uses them only to publish the videos you choose to the Page you select, and to
+      check the processing status of those uploads.</p>
+
+    <h2>3. How data is stored</h2>
+    <ul>
+      <li>Tokens, your app credentials and the connected account names are stored only on your computer, in
+        <code>%LOCALAPPDATA%\VideoStudio</code>. Tokens and secrets are encrypted with Windows DPAPI, so only your
+        Windows user account on that computer can decrypt them.</li>
+      <li>A local publishing history (file name, platform, time, post link, status) is saved on your computer so you
+        can see what was published.</li>
+      <li>The Application does not use analytics, advertising or tracking.</li>
+    </ul>
+
+    <h2>4. Data sent to third parties</h2>
+    <p>The videos, captions and settings that you choose to publish are sent directly from your computer to TikTok
+      and/or Meta over HTTPS, and are then handled under the
+      <a href="https://www.tiktok.com/legal/page/row/privacy-policy/en">TikTok Privacy Policy</a> and the
+      <a href="https://www.facebook.com/privacy/policy/">Meta Privacy Policy</a>. No other data is sent anywhere.</p>
+
+    <h2>5. Retention and deletion</h2>
+    <ul>
+      <li>Tokens are kept until you click <strong>Disconnect</strong> in the Application, which deletes them
+        immediately.</li>
+      <li>Uninstalling the Application and deleting the folder <code>%LOCALAPPDATA%\VideoStudio</code> removes all
+        locally stored data.</li>
+      <li>You can also revoke access at any time: in TikTok, go to Settings and privacy → Security → Apps and services
+        (wording may vary by app version); on Facebook, go to Settings → Business integrations.</li>
+      <li>Videos that were already published stay on TikTok or Facebook until you delete them there.</li>
+    </ul>
+
+    <h2>6. Children</h2>
+    <p>The Application is not intended for children under 13, or under the minimum age required by TikTok or Meta
+      in your country.</p>
+
+    <h2>7. Changes</h2>
+    <p>We may update this policy. The current version, with its effective date, is always published on this page.</p>
+
+    <h2>8. Contact</h2>
+    <p>Privacy questions or deletion requests: [EMAIL LIÊN HỆ]</p>
+  </section>
+
+  <section class="card" id="vi">
+    <span class="lang">VI</span>
+    <h1>Chính sách quyền riêng tư</h1>
+    <p class="meta">Ngày hiệu lực: 09/10/2026 · Bản tiếng Anh ở trên là bản chính thức gửi TikTok/Meta.</p>
+
+    <p>Video Studio là phần mềm chạy trên máy tính Windows. <strong>Phần mềm không có máy chủ: chúng tôi không thu
+      thập, nhận, lưu trữ, bán hay chia sẻ dữ liệu cá nhân của bạn.</strong> Mọi dữ liệu dưới đây chỉ nằm trên máy
+      của bạn, trừ video và chú thích mà bạn chọn đăng lên TikTok/Meta.</p>
+
+    <h2>1. Dữ liệu từ TikTok</h2>
+    <ul>
+      <li><code>user.info.basic</code>: open ID và tên hiển thị, để bạn biết tài khoản nào đang kết nối.</li>
+      <li><code>video.upload</code>: gửi video bạn chọn vào Hộp thư/Nháp TikTok của bạn.</li>
+      <li><code>video.publish</code> (chỉ khi bật đăng thẳng): đăng video bạn chọn với chú thích và chế độ hiển thị
+        bạn đặt.</li>
+    </ul>
+
+    <h2>2. Dữ liệu từ Facebook</h2>
+    <p>Với quyền <code>pages_show_list</code>, <code>pages_read_engagement</code>, <code>pages_manage_posts</code>,
+      phần mềm đọc danh sách Page bạn quản lý và nhận token của Page, chỉ để đăng video bạn chọn lên Page bạn chọn và
+      kiểm tra trạng thái xử lý.</p>
+
+    <h2>3. Lưu trữ</h2>
+    <p>Token, thông tin app và tên tài khoản chỉ lưu tại <code>%LOCALAPPDATA%\VideoStudio</code> trên máy bạn; token
+      và mã bí mật được mã hóa bằng Windows DPAPI. Lịch sử đăng bài cũng chỉ lưu trên máy. Không dùng công cụ phân
+      tích, quảng cáo hay theo dõi.</p>
+
+    <h2>4. Gửi cho bên thứ ba</h2>
+    <p>Chỉ video, chú thích và thiết lập bạn chọn đăng được gửi thẳng từ máy bạn tới TikTok/Meta qua HTTPS, và được xử
+      lý theo chính sách quyền riêng tư của TikTok và Meta.</p>
+
+    <h2>5. Thời gian lưu và xóa dữ liệu</h2>
+    <p>Bấm <strong>Ngắt kết nối</strong> trong phần mềm để xóa token ngay. Gỡ phần mềm và xóa thư mục
+      <code>%LOCALAPPDATA%\VideoStudio</code> để xóa toàn bộ dữ liệu. Bạn cũng có thể thu hồi quyền trong cài đặt
+      TikTok (Quyền riêng tư và cài đặt → Bảo mật → Ứng dụng và dịch vụ) hoặc Facebook (Cài đặt → Tích hợp doanh
+      nghiệp). Video đã đăng vẫn còn trên nền tảng cho tới khi bạn xóa.</p>
+
+    <h2>6–8. Trẻ em, thay đổi, liên hệ</h2>
+    <p>Phần mềm không dành cho trẻ dưới 13 tuổi hoặc dưới độ tuổi tối thiểu của TikTok/Meta. Chính sách có thể được
+      cập nhật; bản hiện hành luôn ở trang này. Liên hệ hoặc yêu cầu xóa dữ liệu: [EMAIL LIÊN HỆ]</p>
+  </section>
+</main>
+<footer>© 2026 Video Studio · <a href="index.html">Home</a> · <a href="terms.html">Terms of Service</a></footer>
+</body>
+</html>
